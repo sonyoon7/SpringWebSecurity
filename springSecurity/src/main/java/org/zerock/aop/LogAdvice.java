@@ -8,7 +8,7 @@ import lombok.extern.log4j.Log4j;
 
 @Aspect // aspect 구현함을 명시
 @Log4j
-@Component  //bean  인식시키기위함
+@Component  //aop와 관계 없지만  bean  인식시키기위함
 public class LogAdvice {
 
 	
